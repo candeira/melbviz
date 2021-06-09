@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pipenv = "*"
+black = "*"
+ptpython = "*"
+ipdb = "*"
+visidata = "*"
+pandas = "*"
+rise = "*"
+voila = "*"
+altair = "*"
+holoviews = {extras = ["recommended"], version = "*"}
+panel = "*"
+plotly = "*"
+dash = "*"
+matplotlib = "*"
+ipympl = "*"
+seaborn = "*"
+jupyterlab = "*"
+jupyterlab-code-formatter = "*"
+jupyter-dash = "*"
+hide-code = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
